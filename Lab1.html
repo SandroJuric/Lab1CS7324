@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Lab1Mod</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Lab1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -8979,7 +8979,9 @@ Regression line: y = 0.0002x + 8.4707
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="UMAP">UMAP<a class="anchor-link" href="#UMAP">¶</a></h2>
+<h2 id="UMAP">UMAP<a class="anchor-link" href="#UMAP">¶</a></h2><p>Uniform Manifold Approximation and Projection (UMAP) is implemented here to lower the high dimensional feature space of EV charging stations into 2D for visualization.
+Before doing UMAP, numeric features were standardized using StandardScaler, and categorical variables were reduced in cardinality and transformed using OneHotEncoder.</p>
+<p>The resulting plots visualize the clustering of EV charging stations that share similar infrastructure characteristics, which may indicate that the geographic and technical features contributed to structured patterns in deployment of EV charging stations across the world.</p>
 </div>
 </div>
 </div>
